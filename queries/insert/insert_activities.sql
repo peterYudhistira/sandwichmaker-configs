@@ -1,0 +1,14 @@
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (1,'PRE','MRM','MR Master','OMNI');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (2,'PRE','MRC','MR Config','OMNI');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (3,'PRE','TAG','Tagging','OMNI');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (4,'PRE','GEN','Generate','SQI');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (5,'IPL','SYN','Sync Config','SQI/Cloud Admin');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (6,'IPL','RES','Restart Service','SQI/Cloud Admin');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (7,'IPL','DPL','Deploy Pilot','QA Release');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (8,'IPL','DPR','Deploy ZDT','QA Release');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (9,'IPL','SWP','Swing Prod','QA Release');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (10,'IPL','SPL','Stop Pilot','QA Release');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (11,'IPL','SPR','Stop Prod','QA Release');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (12,'IPL','EXQ','Execute Query','DBA');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (13,'VRF','VDP','Verify Deployment','SQI/OMNI');
+INSERT INTO checklist.activities(id, category_code, activity_code, activity_name, actor)VALUES (14,'VRF','VSC','Verify Scenarios','KLA');
