@@ -1,4 +1,4 @@
-CREATE SEQUENCE checklist.checklists
+CREATE SEQUENCE checklist.checklists_id
     INCREMENT 1
     START 1;
 
