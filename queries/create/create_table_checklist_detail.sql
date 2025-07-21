@@ -5,7 +5,7 @@
 -- Dumped from database version 13.15
 -- Dumped by pg_dump version 13.15
 
--- Started on 2025-07-21 22:51:19
+-- Started on 2025-07-21 23:08:53
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -36,9 +36,7 @@ CREATE TABLE checklist.checklist_detail (
     actioncode character varying(255),
     actor character varying(255),
     note text,
-    action_code character varying(255),
-    checklist_id bigint NOT NULL,
-    checklist_detail bigint
+    checklist_id bigint NOT NULL
 );
 
 
@@ -74,7 +72,7 @@ ALTER SEQUENCE checklist.checklist_detail_id_sequence OWNED BY checklist.checkli
 -- Data for Name: checklist_detail; Type: TABLE DATA; Schema: checklist; Owner: postgres
 --
 
-COPY checklist.checklist_detail (id, order_no, category_code, time_start, time_finish, actioncode, actor, note, action_code, checklist_id, checklist_detail) FROM stdin;
+COPY checklist.checklist_detail (id, order_no, category_code, time_start, time_finish, actioncode, actor, note, checklist_id) FROM stdin;
 \.
 
 
@@ -96,7 +94,7 @@ ALTER TABLE ONLY checklist.checklist_detail
     ADD CONSTRAINT checklist_detail_pkey1 PRIMARY KEY (id);
 
 
--- Completed on 2025-07-21 22:51:19
+-- Completed on 2025-07-21 23:08:53
 
 --
 -- PostgreSQL database dump complete
